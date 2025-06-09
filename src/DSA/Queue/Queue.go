@@ -1,10 +1,10 @@
 package queue
 
-type Queue[T any] struct {
+type Queue[T comparable] struct {
 	Length int
 }
 
-func NewQueue[T any]() *Queue[T] {
+func NewQueue[T comparable]() *Queue[T] {
 
 }
 

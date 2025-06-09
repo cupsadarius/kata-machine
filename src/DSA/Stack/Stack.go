@@ -1,10 +1,10 @@
 package stack
 
-type Stack[T any] struct {
+type Stack[T comparable] struct {
 	Length int
 }
 
-func NewStack[T any]() *Stack[T] {
+func NewStack[T comparable]() *Stack[T] {
 
 }
 
