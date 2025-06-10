@@ -1,1 +1,3 @@
 src/day*/**/*_test.go
+src/day1
+src/day2
