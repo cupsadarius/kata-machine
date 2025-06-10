@@ -130,7 +130,7 @@ func (l *SinglyLinkedList[T]) RemoveAt(idx int) (T, bool) {
 	if current.next != nil {
 		l.length = int(math.Max(float64(l.length-1), 0))
 		removed := current.next
-		current.next = removed.next.next
+		current.next = removed.next
 		removed.next = nil
 		return removed.value, true
 	} else {
